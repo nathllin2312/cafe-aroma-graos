@@ -2,14 +2,16 @@ export default function Lista() {
     return (
         <section>
   <div>
+  <div>
         <h2>Nosso Cardápio</h2>
         {/* ul marcador ol numeral */}
-        <ul>
+        <ol>
           <li>Expresso</li>
           <li>Cappuccino</li>
           <li>Latte</li>
           <li>Mocha</li>
-        </ul>
+        </ol>
+      </div>
       </div>
         </section>
     );
